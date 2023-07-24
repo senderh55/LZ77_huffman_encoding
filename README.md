@@ -1,6 +1,8 @@
 # LZ77_huffman_encoding
 As part of my data compression course, I implement the LZ77 compression and decompression algorithms and encode them using Adaptive Huffman encoding.
 
+![result](https://github.com/senderh55/LZ77_huffman_encoding/blob/main/result.png)
+
 LZ77 compression
 ```sh
 •	The function takes three parameters: input_string, search_buffer_size, and lookahead_buffer_size. The input_string is the data to be compressed, while search_buffer_size and lookahead_buffer_size are optional parameters that determine the sizes of the search buffer and lookahead buffer, respectively. If not provided, they default to 1024.
